@@ -11,6 +11,7 @@ section{
 .hero--photo{
     max-width: 400px;
     align-self: center;
+    padding : 20px;
 }
 
 .hero--header{
