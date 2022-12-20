@@ -1,7 +1,7 @@
 
 
 
-import airbnb_logo from "../../images/airbnb-logo.png";
+import airbnb_logo from "../../images/airbnb-logo.png"
 import "./styles.css";
 
 const NavBar = (props) => (
