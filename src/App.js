@@ -9,21 +9,14 @@ import Card from "./components/Card/Card";
 function App() {
       const cards = cardData.map(item => 
       <Card
-        key = {item.id}
-        title = {item.title}
-        description ={item.description}
-        price = {item.price}
-        coverImg ={item.coverImg}
-        rating ={item.stats.rating}
-        reviewCount ={item.stats.reviewCount}
-        location = {item.location}
-        openSpots= {item.openSpots}
+      key={item.id}
+      item={item}
       
       />)
   return (
     <div className="App">
         <NavBar/>
-        {/* <Hero/> */}
+        <Hero/>
         <section className="cards-list">
                 {cards}
             </section>
